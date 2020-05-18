@@ -1,0 +1,4 @@
+.App > aside > footer {
+    height: 50px;
+    border-top: 1px solid rgb(36, 48, 62);
+}

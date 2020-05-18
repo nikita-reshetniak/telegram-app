@@ -1,0 +1,3 @@
+.App > aside > section {
+    flex-grow: 1;
+}

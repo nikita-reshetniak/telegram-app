@@ -1,0 +1,8 @@
+.AsideChatsSection {
+    flex-grow: 1;
+}
+
+.AsideChatsSection > ul > li > a:focus {
+    background-color: rgb(71, 106, 147);
+    color: rgb(250, 250, 250);
+}

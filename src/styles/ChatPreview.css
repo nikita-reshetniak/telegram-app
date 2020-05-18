@@ -1,0 +1,31 @@
+.ChatPreview {
+    height: 70px;
+    display: flex;
+    padding: 10px 0px 0px 10px;
+    box-sizing: border-box;
+}
+
+.ChatPreview .Avatar{
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.ChatPreview > div:nth-child(2) {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(36, 48, 62);
+}
+
+.ChatPreview .Time {
+    flex-shrink: 0;
+}
+
+.ChatPreview:focus {
+    background-color: purple;
+}
+
+.ChatPreview .ChatName:focus{
+    background-color: purple;
+}

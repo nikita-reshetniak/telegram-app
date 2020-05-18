@@ -1,0 +1,28 @@
+.ChatMessages {
+    padding: 20px;
+    color: rgb(250, 250, 250);
+}
+
+.ChatMessages > li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ChatMessages > li > div:first-child {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.ChatMessages > li > div:nth-child(2) {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ChatMessages .Time {
+    flex-shrink: 0;
+}
+
+.ChatMessages .ChatName {
+    margin-bottom: 3px;
+}

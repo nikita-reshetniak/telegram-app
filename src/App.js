@@ -1,24 +1,50 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import AsideChats from './components/AsideChats';
+import ChatMessages from './components/ChatMessages';
+import MainChatHeader from './components/MainChatHeader';
+import MainChatFooter from './components/MainChatFooter';
+import users from './users.js';
+import './styles/App.css';
+import './styles/App-aside.css';
+import './styles/App-aside-footer.css';
+import './styles/App-main.css';
+import './styles/App-main-section.css';
+import './styles/App-main-footer.css';
+import AsideNav from './components/AsideNav';
+
+library.add(fas)
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <aside>
+          <AsideChats />
+          <footer>
+            <AsideNav />
+          </footer>
+        </aside>
+        <main>
+          <Switch>
+            <Route path="/:userId">
+              <MainChatHeader users={users} />
+              <section>
+                <ChatMessages users={users} />
+              </section>
+              <footer>
+                <MainChatFooter />
+              </footer>
+            </Route>
+          </Switch>
+        </main>
+      </Router>
     </div>
   );
 }

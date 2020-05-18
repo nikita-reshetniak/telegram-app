@@ -1,0 +1,4 @@
+.App > main > header {
+    height: 50px;
+    border-bottom: 1px solid rgb(36, 48, 62);
+}

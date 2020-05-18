@@ -1,0 +1,21 @@
+.Search {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgb(36, 48, 62);
+    color: rgb(180, 195, 211);
+    caret-color: rgb(180, 195, 211);
+}
+
+.Search::placeholder {
+    color: rgb(180, 195, 211);
+}
+
+.Search:focus {
+    outline: none;
+    text-align: left;
+}

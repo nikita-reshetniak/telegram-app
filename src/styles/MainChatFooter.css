@@ -1,0 +1,35 @@
+.MainChatFooter {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainChatFooter > li:nth-child(2) {
+    flex-grow: 1;
+}
+
+.MainChatFooter > li > input {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    color: rgb(250, 250, 250);
+    caret-color: rgb(180, 195, 211);
+    border: none;
+    font-size: 13px;
+}
+
+.MainChatFooter > li > input::placeholder {
+    color: rgb(180, 195, 211);
+}
+
+.MainChatFooter > li > input:focus {
+    outline: none;
+}
+
+.MainChatFooter > li:not(:nth-child(2)) {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

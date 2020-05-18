@@ -1,5 +1,5 @@
 import joaquin_phoenix from './imgs/joaquin_phoenix.jpg';
-import keanu from './imgs/keanu.png';
+import keanu_reeves from './imgs/keanu_reeves.jpg';
 
 let users = [
     {
@@ -47,7 +47,7 @@ let users = [
     },
     {
         name: "Keanu Reeves",
-        avatarUrl: keanu,
+        avatarUrl: keanu_reeves,
         lastSeen: "2 hours",
         messages: [
                 {
@@ -78,4 +78,4 @@ let users = [
     }
 ]
 
-export {users};
+export default users;

@@ -1,0 +1,33 @@
+.MainChatHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    border-bottom: 1px solid rgb(36, 48, 62);
+}
+
+.MainChatHeader > div:first-child {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.MainChatHeader > div:first-child > .Avatar {
+    margin-right: 10px;
+}
+
+.MainChatHeader > ul {
+    display: flex;
+}
+
+.MainChatHeader > ul > li{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: rgb(82, 168, 250);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

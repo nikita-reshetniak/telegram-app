@@ -1,0 +1,14 @@
+.AsideNav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AsideNav > ul > li {
+    height: 50px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

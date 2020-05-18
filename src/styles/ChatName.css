@@ -1,0 +1,8 @@
+.ChatName {
+    font-weight: 700;
+    color: rgb(250, 250, 250);
+}
+
+.ChatName--blue {
+    color: rgb(82, 168, 250);
+}
