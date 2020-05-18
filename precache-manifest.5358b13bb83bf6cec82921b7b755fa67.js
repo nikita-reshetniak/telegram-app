@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7870d284e95d992afabf41649096aeca",
+    "revision": "15d12f69de3e627142d38b7c06cecbcc",
     "url": "/telegram-app/index.html"
   },
   {
-    "revision": "036a0504369b112569a8",
+    "revision": "c0da13edcf46d1e2ee4e",
     "url": "/telegram-app/static/css/main.cd0338a2.chunk.css"
   },
   {
-    "revision": "5d094cf82fc107b01ee2",
-    "url": "/telegram-app/static/js/2.e35747bd.chunk.js"
+    "revision": "16368d0301d59e94374f",
+    "url": "/telegram-app/static/js/2.2dfcd9b3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/telegram-app/static/js/2.e35747bd.chunk.js.LICENSE.txt"
+    "url": "/telegram-app/static/js/2.2dfcd9b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "036a0504369b112569a8",
-    "url": "/telegram-app/static/js/main.f8ab7dfc.chunk.js"
+    "revision": "c0da13edcf46d1e2ee4e",
+    "url": "/telegram-app/static/js/main.5e3649c7.chunk.js"
   },
   {
     "revision": "2cb2b41e46d14cf60e6c",
