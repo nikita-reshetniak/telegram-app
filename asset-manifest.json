@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nikita-reshetniak/telegram-app/static/css/main.18de141d.chunk.css",
-    "main.js": "/nikita-reshetniak/telegram-app/static/js/main.5aabf579.chunk.js",
-    "main.js.map": "/nikita-reshetniak/telegram-app/static/js/main.5aabf579.chunk.js.map",
-    "runtime-main.js": "/nikita-reshetniak/telegram-app/static/js/runtime-main.d6fb773a.js",
-    "runtime-main.js.map": "/nikita-reshetniak/telegram-app/static/js/runtime-main.d6fb773a.js.map",
-    "static/js/2.e35747bd.chunk.js": "/nikita-reshetniak/telegram-app/static/js/2.e35747bd.chunk.js",
-    "static/js/2.e35747bd.chunk.js.map": "/nikita-reshetniak/telegram-app/static/js/2.e35747bd.chunk.js.map",
-    "index.html": "/nikita-reshetniak/telegram-app/index.html",
-    "precache-manifest.2b0e21d27a385853ead576c98aee4121.js": "/nikita-reshetniak/telegram-app/precache-manifest.2b0e21d27a385853ead576c98aee4121.js",
-    "service-worker.js": "/nikita-reshetniak/telegram-app/service-worker.js",
-    "static/css/main.18de141d.chunk.css.map": "/nikita-reshetniak/telegram-app/static/css/main.18de141d.chunk.css.map",
-    "static/js/2.e35747bd.chunk.js.LICENSE.txt": "/nikita-reshetniak/telegram-app/static/js/2.e35747bd.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/nikita-reshetniak/telegram-app/static/media/OpenSans-Regular.3ed9575d.ttf",
-    "static/media/joaquin_phoenix.jpg": "/nikita-reshetniak/telegram-app/static/media/joaquin_phoenix.34f88873.jpg",
-    "static/media/keanu_reeves.jpg": "/nikita-reshetniak/telegram-app/static/media/keanu_reeves.8281db2d.jpg"
+    "main.css": "/telegram-app/static/css/main.cd0338a2.chunk.css",
+    "main.js": "/telegram-app/static/js/main.f8ab7dfc.chunk.js",
+    "main.js.map": "/telegram-app/static/js/main.f8ab7dfc.chunk.js.map",
+    "runtime-main.js": "/telegram-app/static/js/runtime-main.d6a1cc97.js",
+    "runtime-main.js.map": "/telegram-app/static/js/runtime-main.d6a1cc97.js.map",
+    "static/js/2.e35747bd.chunk.js": "/telegram-app/static/js/2.e35747bd.chunk.js",
+    "static/js/2.e35747bd.chunk.js.map": "/telegram-app/static/js/2.e35747bd.chunk.js.map",
+    "index.html": "/telegram-app/index.html",
+    "precache-manifest.033c2247d77927367f17eaadccc3df44.js": "/telegram-app/precache-manifest.033c2247d77927367f17eaadccc3df44.js",
+    "service-worker.js": "/telegram-app/service-worker.js",
+    "static/css/main.cd0338a2.chunk.css.map": "/telegram-app/static/css/main.cd0338a2.chunk.css.map",
+    "static/js/2.e35747bd.chunk.js.LICENSE.txt": "/telegram-app/static/js/2.e35747bd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/telegram-app/static/media/OpenSans-Regular.3ed9575d.ttf",
+    "static/media/joaquin_phoenix.jpg": "/telegram-app/static/media/joaquin_phoenix.34f88873.jpg",
+    "static/media/keanu_reeves.jpg": "/telegram-app/static/media/keanu_reeves.8281db2d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6fb773a.js",
+    "static/js/runtime-main.d6a1cc97.js",
     "static/js/2.e35747bd.chunk.js",
-    "static/css/main.18de141d.chunk.css",
-    "static/js/main.5aabf579.chunk.js"
+    "static/css/main.cd0338a2.chunk.css",
+    "static/js/main.f8ab7dfc.chunk.js"
   ]
 }
