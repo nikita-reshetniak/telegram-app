@@ -7,6 +7,10 @@
     border-bottom: 1px solid rgb(36, 48, 62);
 }
 
+.MainChatHeader button {
+    display: none;
+}
+
 .MainChatHeader > div:first-child {
     display: flex;
     flex-shrink: 0;
@@ -30,4 +34,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .MainChatHeader button {
+        display: block;
+    }
 }

@@ -7,9 +7,13 @@ import '../styles/MainChatHeader.css';
 
 function MainChatHeader(props) {
     let { userId } = useParams();
+    function handler(e) {
+        document.querySelector("aside").classList.toggle("activeRight");
+    }
     return (
         <header className="MainChatHeader">
             <div>
+                <button onClick={handler}></button>
                 <Avatar user={props.users[userId]} mod="small"/>
                 <div>
                     <ChatName user={props.users[userId]} />

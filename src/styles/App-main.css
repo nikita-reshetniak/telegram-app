@@ -1,6 +1,21 @@
 .App > main {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 700px) {
+    .App > main {
+      width: 100vw;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .App > main {
+        flex-grow: 1;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+    }
 }
