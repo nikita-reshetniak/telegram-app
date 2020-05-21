@@ -29,12 +29,13 @@
 
 .MainChatHeader > ul {
     display: flex;
+    justify-content: space-between;
+    width: 145px;
 }
 
 .MainChatHeader > ul > li{
     width: 30px;
     height: 30px;
-    margin-left: 25px;
     font-size: 20px;
     color: rgb(82, 168, 250);
     border-radius: 50%;
