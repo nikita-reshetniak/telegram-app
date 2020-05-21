@@ -13,7 +13,9 @@ function MainChatHeader(props) {
     return (
         <header className="MainChatHeader">
             <div>
-                <button onClick={handler}></button>
+                <button onClick={handler}>
+                    <FontAwesomeIcon icon="chevron-left" />
+                </button>
                 <Avatar user={props.users[userId]} mod="small"/>
                 <div>
                     <ChatName user={props.users[userId]} />
