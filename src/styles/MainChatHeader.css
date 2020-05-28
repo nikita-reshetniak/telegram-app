@@ -7,27 +7,61 @@
     border-bottom: 1px solid rgb(36, 48, 62);
 }
 
+.MainChatHeader button {
+    display: none;
+}
+
 .MainChatHeader > div:first-child {
     display: flex;
-    flex-shrink: 0;
+    overflow: hidden;
 }
 
 .MainChatHeader > div:first-child > .Avatar {
     margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.MainChatHeader > div:first-child > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .MainChatHeader > ul {
     display: flex;
+    justify-content: space-between;
+    width: 145px;
 }
 
 .MainChatHeader > ul > li{
     width: 30px;
     height: 30px;
-    margin-left: 25px;
     font-size: 20px;
     color: rgb(82, 168, 250);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.MainChatHeader-lastSeen {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ChatName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 700px) {
+    .MainChatHeader button {
+        display: block;
+        width: 30px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        color: rgb(82, 168, 250);
+    }
 }
