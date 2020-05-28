@@ -1,3 +1,4 @@
 .App > main > section {
     flex-grow: 1;
+    overflow: scroll;
 }
