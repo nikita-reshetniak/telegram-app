@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15d12f69de3e627142d38b7c06cecbcc",
+    "revision": "daa91319525de3d09d9c7f1f845227ad",
     "url": "/telegram-app/index.html"
   },
   {
-    "revision": "c0da13edcf46d1e2ee4e",
-    "url": "/telegram-app/static/css/main.cd0338a2.chunk.css"
+    "revision": "31af5e972cc7e02eb6fe",
+    "url": "/telegram-app/static/css/main.5145b9c1.chunk.css"
   },
   {
-    "revision": "16368d0301d59e94374f",
-    "url": "/telegram-app/static/js/2.2dfcd9b3.chunk.js"
+    "revision": "41d8cf31ea52b182dbae",
+    "url": "/telegram-app/static/js/2.4762753a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/telegram-app/static/js/2.2dfcd9b3.chunk.js.LICENSE.txt"
+    "url": "/telegram-app/static/js/2.4762753a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0da13edcf46d1e2ee4e",
-    "url": "/telegram-app/static/js/main.5e3649c7.chunk.js"
+    "revision": "31af5e972cc7e02eb6fe",
+    "url": "/telegram-app/static/js/main.3f2d4c5e.chunk.js"
   },
   {
     "revision": "2cb2b41e46d14cf60e6c",
@@ -34,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8281db2d11316d214566848559450d26",
     "url": "/telegram-app/static/media/keanu_reeves.8281db2d.jpg"
+  },
+  {
+    "revision": "85e79044f521ee2f4558ea0b541aedee",
+    "url": "/telegram-app/static/media/mufasa.85e79044.png"
   }
 ]);
