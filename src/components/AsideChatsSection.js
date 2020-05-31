@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 function AsideChatsSection(props) {
     function handler(e) {
         document.querySelector("aside").classList.toggle("activeRight");
-        // document.querySelector("main").classList.toggle("activeRight");
     }
     return (
         <section className="AsideChatsSection">

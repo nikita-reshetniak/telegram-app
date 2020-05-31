@@ -10,6 +10,7 @@ import AsideChats from './components/AsideChats';
 import ChatMessages from './components/ChatMessages';
 import MainChatHeader from './components/MainChatHeader';
 import MainChatFooter from './components/MainChatFooter';
+import AsideNav from './components/AsideNav';
 import users from './users.js';
 import './styles/App.css';
 import './styles/App-aside.css';
@@ -17,7 +18,6 @@ import './styles/App-aside-footer.css';
 import './styles/App-main.css';
 import './styles/App-main-section.css';
 import './styles/App-main-footer.css';
-import AsideNav from './components/AsideNav';
 
 library.add(fas)
 
