@@ -2,7 +2,8 @@ import React from 'react';
 import {
   HashRouter as Router,
   Switch,
-  Route
+  Route,
+  useRouteMatch
 } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -22,11 +23,18 @@ import './styles/App-main-footer.css';
 library.add(fas)
 
 function App() {
+  // let { path, url } = useRouteMatch();
+
   return (
     <div className="App">
       <Router>
         <aside>
-          <AsideChats />
+          <Switch>
+            <Route>
+              <AsideChats />
+            </Route>
+
+          </Switch>
           <footer>
             <AsideNav />
           </footer>

@@ -1,9 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from "react-router-dom";
+import { Link, useRouteMatch } from "react-router-dom";
 import '../styles/AsideNav.css';
 
 function AsideNav(props) {
+    let { path, url } = useRouteMatch();
+
     return (
         <nav className="AsideNav">
             <ul>
@@ -18,7 +20,7 @@ function AsideNav(props) {
                     </Link>
                 </li>
                 <li>
-                    <Link >
+                    <Link to={`${url}/chats`}>
                         <FontAwesomeIcon icon="comments" />
                     </Link>
                 </li>
